@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Essential Web Dev Tools",
+  "description": "An extension of essential links for web developers",
+  "version": "1.0.0",
+  "icons": {"128": "icon_128.png"},
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "modal.html"
+  },
+  "permissions": ["activeTab"]
+}
